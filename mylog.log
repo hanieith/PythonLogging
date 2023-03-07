@@ -1,0 +1,17 @@
+DEBUG:root:Enter in the main() function: name = oleg
+DEBUG:root:Enter in the main() function: name = oleg
+DEBUG:root:Enter in the main() function: name = oleg
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.google.ru:443
+DEBUG:urllib3.connectionpool:https://www.google.ru:443 "GET / HTTP/1.1" 200 None
+DEBUG:root:Enter in the main() function: name = oleg
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.google.ru:443
+DEBUG:urllib3.connectionpool:https://www.google.ru:443 "GET / HTTP/1.1" 200 None
+DEBUG:root:Enter in the main() function: name = oleg
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.google.ru:443
+DEBUG:urllib3.connectionpool:https://www.google.ru:443 "GET / HTTP/1.1" 200 None
+DEBUG:root:Enter in the main() function: name = oleg
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.google.ru:443
+DEBUG:urllib3.connectionpool:https://www.google.ru:443 "GET / HTTP/1.1" 200 None
+DEBUG:root:Enter in the main() function: name = oleg
+2023-03-07 19:33:57,377 - DEBUG - app_logger - Enter in to the main()
+2023-03-07 19:34:51,979 - DEBUG - app_logger - Enter in to the main()
