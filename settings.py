@@ -1,3 +1,9 @@
+import logging
+
+class NewFunctionFilter(logging.Filter):
+    def filter(self, record) -> bool:
+        return record.funcName == 'new_function'
+
 logger_config = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -12,7 +18,8 @@ logger_config = {
         'console': {
             'class': 'logging.StreamHandler',
             'level': 'DEBUG',
-            'formatter': 'std_format'
+            'formatter': 'std_format',
+            'filters':['new_filter']
         }
     },
     'loggers': {
@@ -22,8 +29,11 @@ logger_config = {
             #'propagate': False
         }
     },
-
-    # 'filters': {},
+    'filters': {
+        'new_filter':{
+            '()': NewFunctionFilter,
+        }
+    },
     # 'root': {}   # '': {}
     # 'incremental': True
 }
