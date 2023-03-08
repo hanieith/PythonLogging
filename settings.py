@@ -2,7 +2,7 @@ import logging
 
 class NewFunctionFilter(logging.Filter):
     def filter(self, record) -> bool:
-        return record.funcName == 'new_function'
+        return True
 
 logger_config = {
     'version': 1,
